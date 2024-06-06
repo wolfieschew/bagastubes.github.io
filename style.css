@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  min-height: 2000px;
+  background-image: url(/img/wickedbackground-white.svg);
+  background-repeat: no-repeat;
+}
+
+body .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.4rem 9.5%;
+}
+
+body .logo {
+  font-size: 3rem;
+}
+
+body .navbar .btn-github {
+  font-size: 1rem;
+  margin-top: 0.1rem;
+  background: linear-gradient(#07b6d1, #13b8a9);
+  padding: 10px;
+  border: 1px solid #07b6d1;
+  border-radius: 0.4rem;
+  color: #fff;
+}
+
+/* section home */
+.home {
+  padding: 10.4rem 9.5%;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 15rem;
+}
+
+.home h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  background: linear-gradient(
+    to right,
+    #07b6d0,
+    #13b8a9
+  ); /* Tentukan warna gradient */
+  -webkit-background-clip: text; /* Aktifkan efek gradient pada teks (Chrome, Safari) */
+  background-clip: text; /* Aktifkan efek gradient pada teks (Firefox) */
+  color: transparent; /* Membuat teks menjadi transparan, sehingga efek gradient terlihat */
+}
+
+.home h4 {
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: grey;
+}
+
+.home p {
+  color: grey;
+  margin-top: 1rem;
+}
+
+.home span {
+  background: url("https://api.iconify.design/mdi/paw.svg?color=grey") no-repeat
+    center center / contain;
+  content: url("https://api.iconify.design/mdi/paw.svg?color=grey");
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.home .btn-social {
+  margin-top: 1rem;
+  height: 2.5rem;
+}
+
+.home .btn-socials {
+  font-size: 2rem;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.home .profile .profile-icon {
+  margin-top: 2rem;
+  width: 200px; /* Atur ukuran gambar sesuai kebutuhan Anda */
+  height: 200px; /* Ukuran tinggi juga bisa diatur sesuai kebutuhan Anda */
+  border-radius: 50%; /* Membuat gambar menjadi bulat */
+  object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+}
+/* section end home */
+
+/* section about me */
+.penjelasan {
+  padding: 1.4rem 25.5%;
+  margin-top: 5rem;
+}
+
+.penjelasan span {
+  color: #0fb7b7;
+}
+
+.penjelasan h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.penjelasan p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-family: sans-serif;
+}
+
+.penjelasanp span {
+  color: #07b6d1;
+}
+
+.penjelasan p .yellow-spn {
+  color: #ff0000;
+}
+
+.penjelasan .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.penjelasan .container .img-icon {
+  height: auto;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.penjelasan .container-content {
+  margin-top: 1rem;
+}
+
+.penjelasan .container-content h3 {
+  margin-top: 5rem;
+}
+
+.penjelasan .swtc-fnc {
+  margin-top: 0.3rem;
+}
+
+.penjelasan .swtc-fnc li {
+  padding: 1px;
+  margin-bottom: 1px;
+}
+
+.penjelasan .container-content .content-explaining {
+  margin-top: 1rem;
+}
+
+.penjelasan .container-content .content-explaining h4 {
+  font-size: 1.3rem;
+}
+
+.dowload-content .download-btn {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dowload-content .btn {
+  background-color: #0eb7b6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.dowload-content .btn:hover {
+  background-color: #0ccfcf;
+}
+
+/* section about me end */
+
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 70%;
+  }
+
+  .home h4 {
+    font-weight: 300;
+    font-size: 1rem;
+    color: grey;
+  }
+
+  .box {
+    display: block;
+  }
+
+  .box .box-card {
+    margin-top: 5rem;
+    padding-top: 1.5rem;
+    border: 1px solid #e8e8e8;
+    width: 360px; /* Lebar tetap 200px */
+    height: 360px; /* Tinggi yang cukup besar untuk membuatnya panjang ke bawah */
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .penjelasan {
+    padding: 1.4rem 9.5%;
+    margin-top: 5rem;
+  }
+
+  .penjelasan .container .img-icon {
+    width: 100%;
+    height: auto;
+  }
+
+  .dowload-content .btn {
+    background-color: #0eb7b6;
+    border: none;
+    color: white;
+    padding: 10px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 440px) {
+  html {
+    font-size: 68%;
+  }
+
+  body {
+    min-height: 1700px;
+  }
+
+  .home h1 {
+    font-size: 3.2rem;
+  }
+
+  .home h4 {
+    font-size: 0.9rem;
+  }
+
+  .home p {
+    font-size: 0.8rem;
+  }
+
+  .box .box-card {
+    margin-top: 5rem;
+    padding-top: 1.5rem;
+    border: 1px solid #e8e8e8;
+    width: 100%; /* Lebar tetap 200px */
+    height: 300px; /* Tinggi yang cukup besar untuk membuatnya panjang ke bawah */
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .penjelasan {
+    padding: 1.4rem 9.5%;
+    margin-top: 5rem;
+  }
+
+  .penjelasan .container .img-icon {
+    width: 100%;
+    height: auto;
+  }
+
+  .dowload-content .btn {
+    background-color: #0eb7b6;
+    border: none;
+    color: white;
+    padding: 10px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+}

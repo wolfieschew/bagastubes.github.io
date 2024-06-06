@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,700;1,6..12,200;1,6..12,300&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <!-- End -->
+    <title>Tubes | Arsitektur Jaringan Komputer</title>
+  </head>
+  <body>
+    <!-- section home -->
+    <section class="home">
+      <h1>Bagas Permana</h1>
+      <h4>
+        D3 Sistem Informasi 47-05 | Mata Kuliah Arsitektur Jaringan Komputer
+      </h4>
+      <div class="profile">
+        <img class="profile-icon" src="img/wolf.jpg" />
+      </div>
+    </section>
+    <!-- section home end -->
+    <!-- section penjelasan materi -->
+    <section class="penjelasan">
+      <h3>Pengertian Switching</h3>
+      <div class="container">
+      <img class="img-icon" src="img/Switch-2.webp" />
+      </div>
+      <p>
+        <span>Pengertian switching</span> adalah sistem elektronik yang dapat digunakan sebagai penghubung jalur komunikasi antar perangkat. Jaringan switching ini merupakan sebuah jaringan yang dapat mengalokasikan sebuah sirkuit yang dedicated diantara nodes dan terminal untuk digunakan pengguna untuk dapat saling berkomunikasi.
+      </p>
+      <div class="container-content">
+        <p>Adapun beberapa tujuan menggunakan switch yaitu :</p>
+        <ul class="swtc-fnc">
+          <li>- Mengurangi beban kerja di masing-masing  PC host.</li>
+          <li>- Membantu meningkatkan kinerja pada jaringan.</li>
+          <li>- Jaringan yang memakai switch akan mempunyai lebih benturan frame lebih kecil. Sebab adanya switch menjadikan collision domain pada setiap koneksi.</li>
+          <li>- Switch bisa dihubungkan secara langsung dengan workstation.</li>
+        </ul>
+      </div>
+      <div class="container-content">
+        <h3>Fungsi Switch</h3>
+        <p><span>Peran switch</span> secara garis besar berperan sebagai concentrator yang berfungsi untuk mengirim serta menerima data dari dan ke perangkat lain</p>
+        <p>berikut ini beberapa fungsi switch :</p>
+        <div class="content-explaining">
+          <h4>1. Menyaring dan Meneruskan Paket Data</h4>
+          <p>Fungsi switch pertama yaitu menyaring dan meneruskan paket data yang diterima ke alamat tujuan. Alamat yang dimaksud berupa port dan MAC address perangkat. Hal tersebut dilakukan guna meminimalisir terjadinya collision atau tabrakan ketika data diproses.</p>
+        </div>
+        <div class="content-explaining">
+          <h4>2. Mencatat Alamat</h4>
+          <p> Switch memiliki kemampuan address learning di mana seluruh MAC address yang pernah terhubung akan disimpan dan dipelajari. Ketika menerima data, MAC address pengirim dicatat secara otomatis kemudian switch mempelajari semua proses pengiriman, termasuk kemana arah mana data tersebut harus dikirim.</p>
+        </div>
+        <div class="content-explaining">
+          <h4>3. Looping Avoidance</h4>
+          <p>Fungsi switch lainnya adalah mencegah terjadinya looping data. Kendala ini merupakan kondisi dimana data yang diterima stuck atau hanya berputar-putar di bagian port.  Switch memungkinkan penerusan pengiriman data dengan cara memblokir salah satu port yang tengah terhubung ke perangkat lain.</p>
+        </div>
+        <div class="container-content">
+          <h3>Jenis-Jenis Switch
+            Secara Umum</h3>
+          <p><span>Secara umum,</span> switch ini dibagi jadi dua jenis yakni menurut OSI (Open System Interconnection) yang mana ada dua switch yaitu :</p>
+          <div class="content-explaining">
+            <h4>1. Switch Layer 2</h4>
+            <p> Switch yang operasi data link layer terdapat pada lapisan model OSI.  Switch dapat meneruskan paket data dengan melihat MAC address tujuan, switch serta bisa menjadi fungsi bridge antar segmen-segmen LAN (Local Area Network), walaupun switch mengirimkan paket-paket data dengan cara melihat alamat yang akan ditujukan tanpa mengetahui protokol jaringan yang digunakan.</p>
+          </div>
+          <div class="content-explaining">
+            <h4>2. Switch Layer 3</h4>
+            <p>Switch yang terletak di network layer yang berada di lapisan model OSI. Switch ini mampu meneruskan paket data memakai IP address. Switch layer 3 juga disebut sebagai switch routing maupun switch multilayer.</p>
+          </div>
+          </div>
+        </div>
+      <!-- section penjelasan materi end -->
+      <!-- section dowload dokument langkah langkah instalasi web host -->
+       <section class="dowload-content">
+        <div class="download-btn">
+          <h2>Tutorial Website Hosting</h2>
+          <button class="btn">Unduh Dokumen</button>
+        </div>
+       </section>
+      <!-- section dowload dokument langkah langkah instalasi web host end -->
+  </body>
+</html>
