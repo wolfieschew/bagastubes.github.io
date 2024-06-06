@@ -163,6 +163,14 @@ body .navbar .btn-github {
   font-size: 1.3rem;
 }
 
+.penjelasan .container-content .refrence {
+  margin-top: 2rem;
+}
+
+.penjelasan .container-content .refrence a {
+  color: blue;
+}
+
 .dowload-content .download-btn {
   margin-top: 5rem;
   display: flex;
